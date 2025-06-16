@@ -19,35 +19,34 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
+title: "IPSIE Common Requirements Profile"
+abbrev: "IPSIE Common"
 category: info
 
-docname: draft-todo-yourname-protocol-latest
-submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
+docname: draft-saxe-ipsie-common-requirements-profile-latest
+submissiontype: "independent"
 number:
 date:
 consensus: true
 v: 3
-area: AREA
-workgroup: WG Working Group
+# area: AREA
+workgroup: IPSIE Working Group
 keyword:
- - next generation
- - unicorn
- - sparkling distributed ledger
+ - openid
+ - ipsie
 venue:
-  group: WG
+  group: IPSIE
   type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
+  mail: openid-specs-ipsie@lists.openid.net
+  arch: https://openid.net/wg/ipsie/
+  github: "deansaxe/IPSIE-common"
+  latest: "https://deansaxe.github.io/ipsie-common/draft-saxe-ipsie-common-requirements-profile.html"
 
 author:
  -
-    fullname: Your Name Here
-    organization: Your Organization Here
-    email: your.email@example.com
+    fullname: Dean H. Saxe
+    organization: -
+    email: dean@thesax.es
 
 normative:
 
