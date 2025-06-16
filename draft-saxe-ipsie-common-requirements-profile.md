@@ -19,7 +19,7 @@ venue:
   type: Working Group
   mail: openid-specs-ipsie@lists.openid.net
   arch: https://openid.net/wg/ipsie/
-  github: "deansaxe/IPSIE-common"
+  github: "deansaxe/ipsie-common"
   latest: "https://deansaxe.github.io/ipsie-common/draft-saxe-ipsie-common-.html"
 
 author:
