@@ -9,17 +9,17 @@ number:
 date:
 v: 3
 # area: AREA
-workgroup: IPSIE Working Group
+# workgroup: IPSIE Working Group
 keyword:
  - openid
  - ipsie
 venue:
-  group: IPSIE
-  type: Working Group
-  mail: openid-specs-ipsie@lists.openid.net
-  arch: https://openid.net/wg/ipsie/
+#  group: IPSIE
+#  type: Working Group
+#  mail: openid-specs-ipsie@lists.openid.net
+#  arch: https://openid.net/wg/ipsie/
   github: "deansaxe/ipsie-common"
-  latest: "https://deansaxe.github.io/ipsie-common/draft-saxe-ipsie-common-.html"
+  latest: "https://deansaxe.github.io/ipsie-common/draft-saxe-ipsie-common-requirements-profile.html"
 
 author:
  -
@@ -71,7 +71,7 @@ informative:
 
 --- abstract
 
-The IPSIE Common Requirements Profile is a profile of multiple common security requirements that are applicable to all IPSIE levels (SL* and IL*) and protocols. These common requirements are intended to meet the security and interoperability requirements of enterprise using one or more IPSIE profiles.  
+The IPSIE Common Requirements Profile is a profile of multiple common security requirements that are applicable to all IPSIE levels (SL* and IL*) and protocols. These common requirements are intended to meet the security and interoperability requirements of enterprise using one or more IPSIE profiles.
 
 --- middle
 
@@ -140,8 +140,8 @@ The following requirements apply to all federation protocol profiles derived by 
 * Alternative authentication mechanisms that bypass federated authentication MAY be supported by IPSIE compliant applications at all SL levels.
   * These mechanisms MUST be disabled by default and MAY be enabled on an individual user basis.  The mechanism of enablement is not specified by IPSIE.
   * Alternative authentication mechanisms MUST meet the minimum requirements of IPSIE, including the use of multifactor authentication. Phishing resistant authentication is RECOMMENDED.
-  
-  
+
+
 
 # Security Considerations
 
