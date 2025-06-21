@@ -2,14 +2,14 @@
 
 
 
-IPSIE Working Group                                           D. H. Saxe
-Internet-Draft                           Full Frontal Nerdity Industries
-Intended status: Informational                              21 June 2025
+Network Working Group                                         D. H. Saxe
+Internet-Draft                                              21 June 2025
+Intended status: Informational                                          
 Expires: 23 December 2025
 
 
                    IPSIE Common Requirements Profile
-                     draft-saxe-ipsie-common-latest
+          draft-saxe-ipsie-common-requirements-profile-latest
 
 Abstract
 
@@ -24,13 +24,10 @@ About This Document
    This note is to be removed before publishing as an RFC.
 
    The latest revision of this draft can be found at
-   https://deansaxe.github.io/ipsie-common/draft-saxe-ipsie-
-   common-.html.  Status information for this document may be found at
-   https://datatracker.ietf.org/doc/draft-saxe-ipsie-common/.
-
-   Discussion of this document takes place on the IPSIE Working Group
-   mailing list (mailto:openid-specs-ipsie@lists.openid.net), which is
-   archived at https://openid.net/wg/ipsie/.
+   https://deansaxe.github.io/ipsie-common/draft-saxe-ipsie-common-
+   requirements-profile.html.  Status information for this document may
+   be found at https://datatracker.ietf.org/doc/draft-saxe-ipsie-common-
+   requirements-profile/.
 
    Source for this draft and an issue tracker can be found at
    https://github.com/deansaxe/ipsie-common.
@@ -373,5 +370,4 @@ Acknowledgments
 Author's Address
 
    Dean H. Saxe
-   Full Frontal Nerdity Industries
    Email: dean@thesax.es
