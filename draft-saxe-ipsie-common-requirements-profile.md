@@ -3,7 +3,7 @@ title: "IPSIE Common Requirements Profile"
 abbrev: "IPSIE Common Requirements"
 category: info
 
-docname: draft-saxe-ipsie-common-latest
+docname: draft-saxe-ipsie-common-requirements-profile-latest
 submissiontype: "independent"
 number:
 date:
