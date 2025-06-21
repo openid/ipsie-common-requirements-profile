@@ -24,7 +24,7 @@ venue:
 author:
  -
     fullname: Dean H. Saxe
-    organization: Full Frontal Nerdity Industries
+    organization:
     email: dean@thesax.es
 
 normative:
