@@ -9,7 +9,6 @@ number:
 date:
 consensus: true
 v: 3
-
 # area: AREA
 workgroup: IPSIE Working Group
 keyword:
@@ -70,8 +69,6 @@ normative:
     date: August 28, 2024
 
 informative:
-
-...
 
 --- abstract
 
