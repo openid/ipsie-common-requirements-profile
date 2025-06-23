@@ -139,23 +139,21 @@ IPSIE federation protocols are designed to be compliant with many of the technic
 * Identity providers and applications SHALL minimize account attribute disclosures to those required for business operations.
   * Personally identifiable information SHOULD be minimized, except where required to support necessary business functions, e.g. human resources, hiring.
   * Additional restrictions on attribute disclosure MAY be implemented through business agreements.  These business agreements are out of scope for IPSIE.
- 
+
 (to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/78)
 * Account linking as defined in Section 3.7.1 of [NIST.FAL] MAY be supported by RPs.
   * RPs MUST disable account linking by default.
   * RPs that allow account linking MUST follow the requirements of [NIST.FAL].
-    
+
 (to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/80)
 * Alternative authentication mechanisms that bypass federated authentication MAY be supported by IPSIE compliant applications at all SL levels.  These mechanisms are commonly known as "break-glass" accounts.
   * These mechanisms MUST be disabled by default and MAY be enabled on an individual user basis.  The mechanism of enablement is not specified by IPSIE.
   * Alternative authentication mechanisms MUST meet the minimum requirements of IPSIE authentication, including the use of multifactor authentication. Phishing resistant authentication is RECOMMENDED.
   * Alterntive authentication mechanisms MUST be disabled through an identity provisioning protocol when the user's account is disabled or deleted from the application to prevent access to the account.
- 
+
 (to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/81 and https://github.com/openid/ipsie/issues/75)
 * Encryption of assertions passed through the front or back channel MUST be offered by identity providers and MAY be used by applications.
 * Pairwise identifiers to prevent correlation of the user's activities across multiple RPs MUST be offered by identity providers and MAY be used by applications.
- 
-
 
 # Security Considerations
 
