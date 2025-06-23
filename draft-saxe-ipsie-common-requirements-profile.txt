@@ -3,8 +3,8 @@
 
 
 Network Working Group                                         D. H. Saxe
-Internet-Draft                                              23 June 2025
-Intended status: Informational                                          
+Internet-Draft                           Full Frontal Nerdity Industries
+Intended status: Informational                              23 June 2025
 Expires: 25 December 2025
 
 
@@ -390,4 +390,5 @@ Acknowledgments
 Author's Address
 
    Dean H. Saxe
+   Full Frontal Nerdity Industries
    Email: dean@thesax.es
