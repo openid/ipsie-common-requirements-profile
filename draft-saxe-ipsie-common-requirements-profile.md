@@ -18,7 +18,7 @@ venue:
 #  type: Working Group
 #  mail: openid-specs-ipsie@lists.openid.net
 #  arch: https://openid.net/wg/ipsie/
-  github: "deansaxe/ipsie-common"
+  github: "deansaxe/draft-saxe-ipsie-common-requirements-profile"
   latest: "https://deansaxe.github.io/ipsie-common/draft-saxe-ipsie-common-requirements-profile.html"
 
 author:
