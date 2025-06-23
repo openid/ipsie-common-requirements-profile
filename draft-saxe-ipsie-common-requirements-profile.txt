@@ -30,7 +30,8 @@ About This Document
    requirements-profile/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/deansaxe/ipsie-common.
+   https://github.com/deansaxe/draft-saxe-ipsie-common-requirements-
+   profile.
 
 Status of This Memo
 
