@@ -89,7 +89,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ## Security Controls
 (to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/72)
-All IPSIE compliant identity providers and applications SHOULD implement a security controls program, such as NIST SP800-53, FEDRAMP, or other relevant program.  This program and its controls SHOULD be documented and made available to relevant parties in an IPSIE compliant federation.
+All IPSIE compliant identity providers and applications SHOULD implement a security controls program, such as NIST SP800-53, FEDRAMP, or other relevant program. The program SHOULD identify how personal attributes of users are stored at rest by the provider, whether an identity provider or application. This program and its controls SHOULD be documented and made available to relevant parties in an IPSIE compliant federation.
 
 ## Network Layer Requirements
 
