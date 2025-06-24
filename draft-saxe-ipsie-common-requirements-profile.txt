@@ -4,8 +4,8 @@
 
 Network Working Group                                         D. H. Saxe
 Internet-Draft                           Full Frontal Nerdity Industries
-Intended status: Informational                              23 June 2025
-Expires: 25 December 2025
+Intended status: Informational                              24 June 2025
+Expires: 26 December 2025
 
 
                    IPSIE Common Requirements Profile
@@ -48,7 +48,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 25 December 2025.
+   This Internet-Draft will expire on 26 December 2025.
 
 Copyright Notice
 
@@ -101,8 +101,11 @@ Table of Contents
    https://github.com/openid/ipsie/issues/72) All IPSIE compliant
    identity providers and applications SHOULD implement a security
    controls program, such as NIST SP800-53, FEDRAMP, or other relevant
-   program.  This program and its controls SHOULD be documented and made
-   available to relevant parties in an IPSIE compliant federation.
+   program.  The program SHOULD identify how personal attributes of
+   users are stored at rest by the provider, whether an identity
+   provider or application.  This program and its controls SHOULD be
+   documented and made available to relevant parties in an IPSIE
+   compliant federation.
 
 3.2.  Network Layer Requirements
 
