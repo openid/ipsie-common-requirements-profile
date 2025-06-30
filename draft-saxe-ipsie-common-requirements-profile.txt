@@ -4,8 +4,8 @@
 
 Network Working Group                                         D. H. Saxe
 Internet-Draft                           Full Frontal Nerdity Industries
-Intended status: Informational                              24 June 2025
-Expires: 26 December 2025
+Intended status: Informational                              30 June 2025
+Expires: 1 January 2026
 
 
                    IPSIE Common Requirements Profile
@@ -48,7 +48,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 26 December 2025.
+   This Internet-Draft will expire on 1 January 2026.
 
 Copyright Notice
 
@@ -229,6 +229,14 @@ Table of Contents
    providers and MAY be used by applications. * Pairwise identifiers to
    prevent correlation of the user's activities across multiple RPs MUST
    be offered by identity providers and MAY be used by applications.
+
+   *  (to be removed later: note the following bullets are related to
+      https://github.com/openid/ipsie/issues/93)
+
+   *  Subject identifiers may not be globally unique in the absence of
+      additional information.  To ensure subject identifier uniqueness
+      RP's MUST use both the subject identifier and a tenant identifier
+      to create globally unique subjects that are bound to the tenant.
 
 4.  Security Considerations
 
