@@ -158,6 +158,9 @@ IPSIE federation protocols are designed to be compliant with many of the technic
 * (to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/93)
 * Subject identifiers may not be globally unique in the absence of additional information. To ensure subject identifier uniqueness RP's MUST use both the subject identifier and a tenant identifier to create globally unique subjects that are bound to the tenant.
 
+* (to be removed later: note the following bullet is related to https://github.com/openid/ipsie/issues/94)
+* All federation transactions MUST originate from the RP.  Federation requests SHALL NOT originate from the IdP.
+
 # Security Considerations
 
 TODO Security
