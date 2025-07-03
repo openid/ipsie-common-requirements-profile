@@ -89,13 +89,17 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ## Security Controls
 (to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/72)
-All IPSIE compliant identity providers and applications SHOULD implement a security controls program, such as NIST SP800-53, FEDRAMP, or other relevant program. The program SHOULD identify how personal attributes of users are stored at rest by the provider, whether an identity provider or application. This program and its controls SHOULD be documented and made available to relevant parties in an IPSIE compliant federation.
+This section is non-normative.
+
+* All IPSIE compliant identity providers and applications should implement a security controls program, such as NIST SP800-53, FEDRAMP, or other relevant program.
+* The program should identify how personal attributes of users are stored at rest by the provider, whether an identity provider or application.
+* This program and its controls should be documented and made available to relevant parties in an IPSIE compliant federation.
 
 ## Network Layer Requirements
 
 ### Requirements for all endpoints
 
-To protect against network attacks, clients, authorization servers, and resource servers
+To protect against network attacks, clients, authorization servers, and resource servers:
 
 * MUST only offer TLS protected endpoints and MUST establish connections to other servers using TLS;
 * MUST set up TLS connections using TLS version 1.2 or later;
@@ -137,8 +141,6 @@ IPSIE federation protocols are designed to be compliant with many of the technic
 
 (to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/77 and https://github.com/openid/ipsie/issues/81)
 * Identity providers and applications SHALL minimize account attribute disclosures to those required for business operations.
-  * Personally identifiable information SHOULD be minimized, except where required to support necessary business functions, e.g. human resources, hiring.
-  * Additional restrictions on attribute disclosure MAY be implemented through business agreements.  These business agreements are out of scope for IPSIE.
 
 (to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/78)
 * Account linking as defined in Section 3.7.1 of [NIST.FAL] MAY be supported by RPs.
@@ -148,23 +150,26 @@ IPSIE federation protocols are designed to be compliant with many of the technic
 (to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/80)
 * Alternative authentication mechanisms that bypass federated authentication MAY be supported by IPSIE compliant applications at all SL levels.  These mechanisms are commonly known as "break-glass" accounts.
   * These mechanisms MUST be disabled by default and MAY be enabled on an individual user basis.  The mechanism of enablement is not specified by IPSIE.
-  * Alternative authentication mechanisms MUST meet the minimum requirements of IPSIE authentication, including the use of multifactor authentication. Phishing resistant authentication is RECOMMENDED.
+  * Alternative authentication mechanisms MUST meet the minimum requirements of IPSIE authentication, including the use of multifactor authentication.
+   * Phishing resistant authentication is RECOMMENDED.
   * Alterntive authentication mechanisms MUST be disabled through an identity provisioning protocol when the user's account is disabled or deleted from the application to prevent access to the account.
 
 (to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/81 and https://github.com/openid/ipsie/issues/75)
-* Encryption of assertions passed through the front or back channel MUST be offered by identity providers and MAY be used by applications.
+* Encryption of assertions passed through the back channel MUST be offered by identity providers and MAY be used by applications.
+* Assertions passed through the front channel MUST be encrypted.
 * Pairwise identifiers to prevent correlation of the user's activities across multiple RPs MUST be offered by identity providers and MAY be used by applications.
 
-* (to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/93)
+(to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/93)
 * Subject identifiers may not be globally unique in the absence of additional information. To ensure subject identifier uniqueness RP's MUST use both the subject identifier and a tenant identifier to create globally unique subjects that are bound to the tenant.
 
-* (to be removed later: note the following bullet is related to https://github.com/openid/ipsie/issues/94)
-* All federation transactions MUST originate from the RP.  Federation requests SHALL NOT originate from the IdP.
+(to be removed later: note the following bullet is related to https://github.com/openid/ipsie/issues/94)
+* All federation transactions MUST originate from the RP.
+* Federation requests SHALL NOT originate from the IdP.
 
 # Security Considerations
 
 TODO Security
-* Alternative authN mechanisms security risks
+* Alternative authN mechanisms/break glass security risks
 
 # IANA Considerations
 
@@ -222,8 +227,9 @@ specification.
 
 * Initial draft
 * Moved the sections Network Layer Requirements and Cryptography and Secrets from the IPSIE SL1 OIDC profile draft.
+* 
 
 # Acknowledgments
 {:numbered="false"}
 
-TODO acknowledge Aaron Parecki for his initial documentation of the Network Layer Requirements and Cryptography and Secrets from the IPSIE SL1 OIDC profile draft.
+TODO acknowledge Aaron Parecki for his initial documentation of the Network Layer Requirements and Cryptography and Secrets from the IPSIE SL1 OIDC profile draft.  Acknowledge feedback and contributions from the IPSIE WG.
