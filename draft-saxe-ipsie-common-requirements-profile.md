@@ -9,17 +9,17 @@ number:
 date:
 v: 3
 # area: AREA
-# workgroup: IPSIE Working Group
+workgroup: IPSIE Working Group
 keyword:
  - openid
  - ipsie
 venue:
-#  group: IPSIE
-#  type: Working Group
-#  mail: openid-specs-ipsie@lists.openid.net
-#  arch: https://openid.net/wg/ipsie/
-  github: "deansaxe/draft-saxe-ipsie-common-requirements-profile"
-  latest: "https://deansaxe.github.io/ipsie-common/draft-saxe-ipsie-common-requirements-profile.html"
+ group: IPSIE
+ type: Working Group
+ mail: openid-specs-ipsie@lists.openid.net
+ arch: https://openid.net/wg/ipsie/
+ github: "deansaxe/draft-saxe-ipsie-common-requirements-profile"
+ latest: "https://deansaxe.github.io/ipsie-common/draft-saxe-ipsie-common-requirements-profile.html"
 
 author:
  -
