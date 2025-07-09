@@ -266,7 +266,11 @@ Table of Contents
 
    *  All federation transactions MUST originate from the RP.
 
-   *  Federation requests SHALL NOT originate from the IdP.
+   *  The IdP MAY signal to the RP that the user should be authenticated
+      via federation.
+
+   *  Unsolicited federation requests SHALL NOT originate from the IdP
+      (_e.g._ IdP initiated federation).
 
 4.  Security Considerations
 
