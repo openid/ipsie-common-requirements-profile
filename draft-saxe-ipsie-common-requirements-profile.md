@@ -162,7 +162,9 @@ IPSIE federation protocols are designed to be compliant with many of the technic
 
 * (to be removed later: note the following bullet is related to https://github.com/openid/ipsie/issues/94)
 * All federation transactions MUST originate from the RP.
-* Federation requests SHALL NOT originate from the IdP.
+* The IdP MAY signal to the RP that the user should be authenticated via federation.
+* Unsolicited federation requests SHALL NOT originate from the IdP (_e.g._ IdP initiated federation).
+  
 
 # Security Considerations
 
