@@ -164,7 +164,6 @@ IPSIE federation protocols are designed to be compliant with many of the technic
 * All federation transactions MUST originate from the RP.
 * The IdP MAY signal to the RP that the user should be authenticated via federation.
 * Unsolicited federation requests SHALL NOT originate from the IdP (_e.g._ IdP initiated federation).
-  
 
 # Security Considerations
 
