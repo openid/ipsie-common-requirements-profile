@@ -137,30 +137,30 @@ The following requirements apply to cryptographic operations and secrets:
 
 IPSIE federation protocols are designed to be compliant with many of the technical controls defined in [NIST.FAL] at FAL2.  The following federation requirements are derived from the FAL2 requirements and apply to all federation protocol profiles developed by the IPSIE WG.
 
-(to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/77 and https://github.com/openid/ipsie/issues/81)
+* (to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/77 and https://github.com/openid/ipsie/issues/81)
 * Identity providers and applications SHALL minimize account attribute disclosures to those required for business operations.
 
-(to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/78)
+* (to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/78)
 * Account linking as defined in Section 3.7.1 of [NIST.FAL] MAY be supported by RPs.
   * RPs MUST disable account linking by default.
   * RPs that allow account linking MUST follow the requirements of [NIST.FAL].
 
-(to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/80)
+* (to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/80)
 * Alternative authentication mechanisms that bypass federated authentication MAY be supported by IPSIE compliant applications at all SL levels.  These mechanisms are commonly known as "break-glass" accounts.
   * These mechanisms MUST be disabled by default and MAY be enabled on an individual user basis.  The mechanism of enablement is not specified by IPSIE.
   * Alternative authentication mechanisms MUST meet the minimum requirements of IPSIE authentication, including the use of multifactor authentication.
    * Phishing resistant authentication is RECOMMENDED.
   * Alterntive authentication mechanisms MUST be disabled through an identity provisioning protocol when the user's account is disabled or deleted from the application to prevent access to the account.
 
-(to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/81 and https://github.com/openid/ipsie/issues/75)
+* (to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/81 and https://github.com/openid/ipsie/issues/75)
 * Encryption of assertions passed through the back channel MUST be offered by identity providers and MAY be used by applications.
 * Assertions passed through the front channel MUST be encrypted.
 * Pairwise identifiers to prevent correlation of the user's activities across multiple RPs MUST be offered by identity providers and MAY be used by applications.
 
-(to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/93)
+* (to be removed later: note the following bullets are related to https://github.com/openid/ipsie/issues/93)
 * Subject identifiers may not be globally unique in the absence of additional information. To ensure subject identifier uniqueness RP's MUST use both the subject identifier and a tenant identifier to create globally unique subjects that are bound to the tenant.
 
-(to be removed later: note the following bullet is related to https://github.com/openid/ipsie/issues/94)
+* (to be removed later: note the following bullet is related to https://github.com/openid/ipsie/issues/94)
 * All federation transactions MUST originate from the RP.
 * Federation requests SHALL NOT originate from the IdP.
 
