@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-10T02:06:50.126735+00:00",
+  "timestamp": "2025-07-13T02:24:23.406872+00:00",
   "repo": "deansaxe/draft-saxe-ipsie-common-requirements-profile",
   "labels": [
     {
@@ -49,6 +49,31 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOO8xdqc7AOd6C",
+      "title": "Considering the processing of xAL's in this spec",
+      "url": "https://github.com/deansaxe/draft-saxe-ipsie-common-requirements-profile/issues/1",
+      "state": "CLOSED",
+      "author": "amonika230995",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "The FAL specifies processing xAL's at RP end. From security perspective I feel this is a good requirement for sensitive RPs. https://pages.nist.gov/800-63-4/sp800-63c/fal/#request-xals. We should maybe specify it as a SHALL for common requirements spec.",
+      "createdAt": "2025-07-12T07:53:26Z",
+      "updatedAt": "2025-07-13T02:13:51Z",
+      "closedAt": "2025-07-13T02:13:51Z",
+      "comments": [
+        {
+          "author": "deansaxe",
+          "authorAssociation": "OWNER",
+          "body": "I've address this in https://github.com/openid/ipsie/issues/98.  \n\nClosing.",
+          "createdAt": "2025-07-13T02:13:51Z",
+          "updatedAt": "2025-07-13T02:13:51Z"
+        }
+      ]
+    }
+  ],
   "pulls": []
 }
