@@ -81,7 +81,7 @@ Table of Contents
    6.  Normative References
    Appendix A.  Notices
    Appendix B.  Document History
-   Acknowledgments
+   Acknowledgements
    Author's Address
 
 1.  Introduction
@@ -427,7 +427,7 @@ Appendix B.  Document History
    *  Moved the sections Network Layer Requirements and Cryptography and
       Secrets from the IPSIE SL1 OIDC profile draft.
 
-Acknowledgments
+Acknowledgements
 
    TODO acknowledge Aaron Parecki for his initial documentation of the
    Network Layer Requirements and Cryptography and Secrets from the
