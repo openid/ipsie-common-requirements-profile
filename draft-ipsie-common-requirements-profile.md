@@ -3,7 +3,7 @@ title: "IPSIE Common Requirements Profile"
 abbrev: "IPSIE Common Requirements"
 category: info
 
-docname: ipsie-common-requirements-profile-latest
+docname: draft-ipsie-common-requirements-profile-latest
 submissiontype: "independent"
 number:
 date:
@@ -19,7 +19,7 @@ venue:
  mail: openid-specs-ipsie@lists.openid.net
  arch: https://openid.net/wg/ipsie/
  github: "openid/ipsie-common-requirements-profile"
- latest: https://openid.github.io/ipsie-common-requirements-profile/ipsie-common-requirements-profile.html
+ latest: https://openid.github.io/ipsie-common-requirements-profile/draft-ipsie-common-requirements-profile.html
 
 author:
  -
