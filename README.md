@@ -4,16 +4,13 @@
 
 This is the working area for the individual Internet-Draft, "IPSIE Common Requirements Profile".
 
-* [Editor's Copy](https://deansaxe.github.io/draft-saxe-ipsie-common-requirements-profile/#go.draft-saxe-ipsie-common-requirements-profile.html)
-* [Datatracker Page](https://datatracker.ietf.org/doc/draft-saxe-ipsie-common-requirements-profile)
-* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-saxe-ipsie-common-requirements-profile)
-* [Compare Editor's Copy to Individual Draft](https://deansaxe.github.io/draft-saxe-ipsie-common-requirements-profile/#go.draft-saxe-ipsie-common-requirements-profile.diff)
+* [Editor's Copy](https://openid.github.io/ipsie-common-requirements-profile/draft-ipsie-common-requirements-profile.html)
 
 
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/deansaxe/draft-saxe-ipsie-common-requirements-profile/blob/main/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/openid/ipsie-common-requirements-profile/blob/main/CONTRIBUTING.md).
 
 Contributions can be made by creating pull requests.
 The GitHub interface supports creating pull requests using the Edit (✏) button.
