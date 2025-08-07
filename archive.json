@@ -1,7 +1,7 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-08-05T02:23:17.129693+00:00",
-  "repo": "deansaxe/draft-saxe-ipsie-common-requirements-profile",
+  "timestamp": "2025-08-07T02:21:50.527379+00:00",
+  "repo": "openid/ipsie-common-requirements-profile",
   "labels": [
     {
       "name": "bug",
@@ -54,7 +54,7 @@
       "number": 1,
       "id": "I_kwDOO8xdqc7AOd6C",
       "title": "Considering the processing of xAL's in this spec",
-      "url": "https://github.com/deansaxe/draft-saxe-ipsie-common-requirements-profile/issues/1",
+      "url": "https://github.com/openid/ipsie-common-requirements-profile/issues/1",
       "state": "CLOSED",
       "author": "amonika230995",
       "authorAssociation": "NONE",
@@ -67,7 +67,7 @@
       "comments": [
         {
           "author": "deansaxe",
-          "authorAssociation": "OWNER",
+          "authorAssociation": "COLLABORATOR",
           "body": "I've address this in https://github.com/openid/ipsie/issues/98.  \n\nClosing.",
           "createdAt": "2025-07-13T02:13:51Z",
           "updatedAt": "2025-07-13T02:13:51Z"
@@ -75,5 +75,48 @@
       ]
     }
   ],
-  "pulls": []
+  "pulls": [
+    {
+      "number": 2,
+      "id": "PR_kwDOO8xdqc6icBWe",
+      "title": "s/Acknowledgments/Acknowledgements/",
+      "url": "https://github.com/openid/ipsie-common-requirements-profile/pull/2",
+      "state": "MERGED",
+      "author": "deansaxe",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Changed spelling to use British English to work with the publication tool.",
+      "createdAt": "2025-08-06T18:32:13Z",
+      "updatedAt": "2025-08-06T18:32:42Z",
+      "baseRepository": "openid/ipsie-common-requirements-profile",
+      "baseRefName": "main",
+      "baseRefOid": "d9353808181b33458de48e15331e1694a6def3bd",
+      "headRepository": "openid/ipsie-common-requirements-profile",
+      "headRefName": "deansaxe-acknowledgements-1",
+      "headRefOid": "c038be8b6798b02c1cc84ce777ebb2fb438193be",
+      "closedAt": "2025-08-06T18:32:42Z",
+      "mergedAt": "2025-08-06T18:32:42Z",
+      "mergedBy": "aaronpk",
+      "mergeCommit": {
+        "oid": "5138e6586a64e46f4f8ca82f32cd540bf4b7973d"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOO8xdqc64Zx_4",
+          "commit": {
+            "abbreviatedOid": "c038be8"
+          },
+          "author": "aaronpk",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-08-06T18:32:37Z",
+          "updatedAt": "2025-08-06T18:32:37Z",
+          "comments": []
+        }
+      ]
+    }
+  ]
 }
