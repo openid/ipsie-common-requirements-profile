@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>openid/ipsie-common-requirements-profile deansaxe-800-63-rev4-1 preview</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <style type="text/css">/*<![CDATA[*/
+      body { font-family: "Helvetica Neue","Open Sans", Helvetica, Calibri,sans-serif; }
+      h1, h2, td { font-family: "Helvetica Neue", "Roboto Condensed", "Open Sans", Helvetica, Calibri, sans-serif; }
+      h1 { font-size: 20px; } h2 { font-size: 16px; }
+      table { margin: 5px 10px; border-collapse: collapse; }
+      th, td { font-weight: normal; text-align: left; padding: 2px 5px; }
+      a:link { color: #000; } a:visited { color: #00a; }
+    /*]]>*/</style>
+  </head>
+  <body>
+    <h1>Editor's drafts for deansaxe-800-63-rev4-1 branch of <a href="https://github.com/openid/ipsie-common-requirements-profile/tree/deansaxe-800-63-rev4-1">openid/ipsie-common-requirements-profile</a></h1>
+    <table id="branch-deansaxe-800-63-rev4-1">
+      <tr>
+        <td><a href="./draft-ipsie-common-requirements-profile.html" class="html draft-ipsie-common-requirements-profile" title="IPSIE Common Requirements Profile (HTML)">IPSIE Common Requirements</a></td>
+        <td><a href="./draft-ipsie-common-requirements-profile.txt" class="txt draft-ipsie-common-requirements-profile" title="IPSIE Common Requirements Profile (Text)">plain text</a></td>
+        <td>same as main</td>
+      </tr>
+    </table>
+    <script>
+window.onload = function() {
+  var referrer_branch = 'main';
+  // e.g., "https://github.com/user/repo/tree/main"
+  var chunks = document.referrer.split("/");
+  if (chunks[2] === 'github.com' && chunks[5] === 'tree') {
+    referrer_branch = chunks[6];
+  }
+  let branch = document.querySelector('#branch-' + referrer_branch);
+  let h = document.location.hash.substring(1);
+  if (h === 'show') {
+    document.location.hash = '#' + branch.id;
+  } else if (branch && h.startsWith('go')) {
+    let e = branch.querySelector(h.substring(2));
+    if (e && e.href) {
+      document.location = e.href;
+    }
+  }
+};
+    </script>
+  </body>
+</html>
