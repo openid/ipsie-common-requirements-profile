@@ -65,7 +65,7 @@ normative:
   NIST.FAL:
     title: NIST SP 800-63 Digital Identity Guidelines Federation Assurance Level (FAL)
     target: https://pages.nist.gov/800-63-4/sp800-63c/fal/
-    date: August 28, 2024
+    date: August 1, 2025
 
 informative:
 
