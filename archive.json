@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-08-07T02:21:50.527379+00:00",
+  "timestamp": "2025-08-14T02:05:33.121852+00:00",
   "repo": "openid/ipsie-common-requirements-profile",
   "labels": [
     {
@@ -117,6 +117,34 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOO8xdqc6jS3kl",
+      "title": "800-63rev4 references",
+      "url": "https://github.com/openid/ipsie-common-requirements-profile/pull/3",
+      "state": "OPEN",
+      "author": "deansaxe",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [
+        "deansaxe"
+      ],
+      "labels": [],
+      "body": "Updated NIST800-63 reference for rev4.",
+      "createdAt": "2025-08-12T15:16:48Z",
+      "updatedAt": "2025-08-12T15:17:12Z",
+      "baseRepository": "openid/ipsie-common-requirements-profile",
+      "baseRefName": "main",
+      "baseRefOid": "5138e6586a64e46f4f8ca82f32cd540bf4b7973d",
+      "headRepository": "openid/ipsie-common-requirements-profile",
+      "headRefName": "deansaxe-800-63-rev4-1",
+      "headRefOid": "e2777790bfbded088e7c2a213f5403566beef01f",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
