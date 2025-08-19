@@ -63,7 +63,7 @@ normative:
       - ins: M. Jones
       - ins: E. Jay
   NIST.FAL:
-    title: NIST SP 800-63 Digital Identity Guidelines Federation Assurance Level (FAL)
+    title: NIST SP 800-63-4 Digital Identity Guidelines Federation Assurance Level (FAL)
     target: https://pages.nist.gov/800-63-4/sp800-63c/fal/
     date: August 1, 2025
 
