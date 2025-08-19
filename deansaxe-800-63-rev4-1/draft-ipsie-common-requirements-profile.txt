@@ -4,8 +4,8 @@
 
 IPSIE Working Group                                           D. H. Saxe
 Internet-Draft                           Full Frontal Nerdity Industries
-Intended status: Informational                            12 August 2025
-Expires: 13 February 2026
+Intended status: Informational                            19 August 2025
+Expires: 20 February 2026
 
 
                    IPSIE Common Requirements Profile
@@ -51,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 13 February 2026.
+   This Internet-Draft will expire on 20 February 2026.
 
 Copyright Notice
 
@@ -296,7 +296,7 @@ Table of Contents
               (DTLS)", BCP 195, RFC 9325, DOI 10.17487/RFC9325, November
               2022, <https://www.rfc-editor.org/info/rfc9325>.
 
-   [NIST.FAL] "NIST SP 800-63 Digital Identity Guidelines Federation
+   [NIST.FAL] "NIST SP 800-63-4 Digital Identity Guidelines Federation
               Assurance Level (FAL)", August 2025,
               <https://pages.nist.gov/800-63-4/sp800-63c/fal/>.
 
