@@ -291,8 +291,8 @@ Table of Contents
               (DTLS)", BCP 195, RFC 9325, DOI 10.17487/RFC9325, November
               2022, <https://www.rfc-editor.org/info/rfc9325>.
 
-   [NIST.FAL] "NIST SP 800-63 Digital Identity Guidelines Federation
-              Assurance Level (FAL)", August 2024,
+   [NIST.FAL] "NIST SP 800-63-4 Digital Identity Guidelines Federation
+              Assurance Level (FAL)", August 2025,
               <https://pages.nist.gov/800-63-4/sp800-63c/fal/>.
 
    [OpenID]   Sakimura, N., Bradley, J., Jones, M., de Medeiros, B., and
