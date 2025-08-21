@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-08-19T01:59:19.250410+00:00",
+  "timestamp": "2025-08-21T01:56:08.768639+00:00",
   "repo": "openid/ipsie-common-requirements-profile",
   "labels": [
     {
@@ -123,7 +123,7 @@
       "id": "PR_kwDOO8xdqc6jS3kl",
       "title": "800-63rev4 references",
       "url": "https://github.com/openid/ipsie-common-requirements-profile/pull/3",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "deansaxe",
       "authorAssociation": "COLLABORATOR",
       "assignees": [
@@ -132,26 +132,42 @@
       "labels": [],
       "body": "Updated NIST800-63 reference for rev4.",
       "createdAt": "2025-08-12T15:16:48Z",
-      "updatedAt": "2025-08-12T15:17:12Z",
+      "updatedAt": "2025-08-20T18:26:14Z",
       "baseRepository": "openid/ipsie-common-requirements-profile",
       "baseRefName": "main",
       "baseRefOid": "5138e6586a64e46f4f8ca82f32cd540bf4b7973d",
       "headRepository": "openid/ipsie-common-requirements-profile",
       "headRefName": "deansaxe-800-63-rev4-1",
-      "headRefOid": "e2777790bfbded088e7c2a213f5403566beef01f",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "b1f7286ebfdd880824f03ec37eb441a5db0abb79",
+      "closedAt": "2025-08-20T18:26:09Z",
+      "mergedAt": "2025-08-20T18:26:09Z",
+      "mergedBy": "aaronpk",
+      "mergeCommit": {
+        "oid": "9ebd40e29a5f634f09b683b69f4d000400fa1819"
+      },
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOO8xdqc67Bp8C",
+          "commit": {
+            "abbreviatedOid": "b1f7286"
+          },
+          "author": "aaronpk",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "Discussed on 8/19 https://github.com/openid/ipsie/wiki/2025%E2%80%9008%E2%80%9019",
+          "createdAt": "2025-08-20T18:26:04Z",
+          "updatedAt": "2025-08-20T18:26:04Z",
+          "comments": []
+        }
+      ]
     },
     {
       "number": 4,
       "id": "PR_kwDOO8xdqc6kJaIU",
       "title": "Update to NIST SP800-63 rev4",
       "url": "https://github.com/openid/ipsie-common-requirements-profile/pull/4",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "deansaxe",
       "authorAssociation": "COLLABORATOR",
       "assignees": [
@@ -160,18 +176,26 @@
       "labels": [],
       "body": "Changed the date to reflect the final publication of rev4.",
       "createdAt": "2025-08-18T16:52:28Z",
-      "updatedAt": "2025-08-18T16:52:37Z",
+      "updatedAt": "2025-08-19T15:42:04Z",
       "baseRepository": "openid/ipsie-common-requirements-profile",
       "baseRefName": "main",
       "baseRefOid": "5138e6586a64e46f4f8ca82f32cd540bf4b7973d",
       "headRepository": "openid/ipsie-common-requirements-profile",
       "headRefName": "NIST-publication-date-update",
       "headRefOid": "70449490fc63a2205c590d8153ad9ef93373b6c5",
-      "closedAt": null,
+      "closedAt": "2025-08-19T15:41:56Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
+      "comments": [
+        {
+          "author": "deansaxe",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I did the same changes in #3.  Closing this PR as unnecessary.",
+          "createdAt": "2025-08-19T15:41:56Z",
+          "updatedAt": "2025-08-19T15:41:56Z"
+        }
+      ],
       "reviews": []
     },
     {
@@ -179,26 +203,42 @@
       "id": "PR_kwDOO8xdqc6kJcLT",
       "title": "Remove restriction on IdP Init federation",
       "url": "https://github.com/openid/ipsie-common-requirements-profile/pull/5",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "deansaxe",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Removal of language banning IdP init federation. This will be included in the SL2 profiles where appropriate.",
       "createdAt": "2025-08-18T16:55:40Z",
-      "updatedAt": "2025-08-18T16:57:10Z",
+      "updatedAt": "2025-08-20T18:25:45Z",
       "baseRepository": "openid/ipsie-common-requirements-profile",
       "baseRefName": "main",
       "baseRefOid": "5138e6586a64e46f4f8ca82f32cd540bf4b7973d",
       "headRepository": "openid/ipsie-common-requirements-profile",
       "headRefName": "remove-IdP-init-federation-ban",
       "headRefOid": "e8df0dd93ef44b00881335593638063feda388d8",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-08-20T18:25:38Z",
+      "mergedAt": "2025-08-20T18:25:38Z",
+      "mergedBy": "aaronpk",
+      "mergeCommit": {
+        "oid": "ed3f6f0c268ad50a38fe4e275bd90c75eae37d39"
+      },
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOO8xdqc67Bpmv",
+          "commit": {
+            "abbreviatedOid": "e8df0dd"
+          },
+          "author": "aaronpk",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "Discussed on 8/19 https://github.com/openid/ipsie/wiki/2025%E2%80%9008%E2%80%9019",
+          "createdAt": "2025-08-20T18:25:32Z",
+          "updatedAt": "2025-08-20T18:25:32Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
